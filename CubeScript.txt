@@ -1,0 +1,45 @@
+import maya.cmds as mc
+#Build cube around selected components
+
+def findFarthest(axis, direction, verts):
+    farthestValue = mc.pointPosition(verts[0])[axis]
+    
+    for vert in verts:
+        pointPos = mc.pointPosition(vert)
+        if (direction == 1):
+            if (pointPos[axis] > farthestValue):
+                farthestValue = pointPos[axis]
+        else:
+            if (pointPos[axis] < farthestValue):
+                farthestValue = pointPos[axis]
+    return farthestValue
+   
+#Main
+
+selected = mc.ls(sl = True, fl = True)
+if (len(selected) > 0):
+    mc.select(cmds.polyListComponentConversion(selected, tv = True, internal = False))
+    verts = mc.ls(sl = True, fl = True)
+    
+    newCube = mc.polyCube()
+    
+    bounds = []
+    bounds.append(findFarthest(0, 1, verts))
+    bounds.append(findFarthest(0, -1, verts))
+    bounds.append(findFarthest(1, 1, verts))
+    bounds.append(findFarthest(1, -1, verts))
+    bounds.append(findFarthest(2, 1, verts))
+    bounds.append(findFarthest(2, -1, verts))
+    
+    mc.xform(newCube[0] + ".vtx[0]", a = True, t = (bounds[1],bounds[3],bounds[4]))
+    mc.xform(newCube[0] + ".vtx[1]", a = True, t = (bounds[0],bounds[3],bounds[4]))
+    mc.xform(newCube[0] + ".vtx[2]", a = True, t = (bounds[1],bounds[2],bounds[4]))
+    mc.xform(newCube[0] + ".vtx[3]", a = True, t = (bounds[0],bounds[2],bounds[4]))
+    mc.xform(newCube[0] + ".vtx[4]", a = True, t = (bounds[1],bounds[2],bounds[5]))
+    mc.xform(newCube[0] + ".vtx[5]", a = True, t = (bounds[0],bounds[2],bounds[5]))
+    mc.xform(newCube[0] + ".vtx[6]", a = True, t = (bounds[1],bounds[3],bounds[5]))
+    mc.xform(newCube[0] + ".vtx[7]", a = True, t = (bounds[0],bounds[3],bounds[5]))
+    
+    mc.xform(newCube[0], cp = True)
+else:
+    mc.warning("Nothing selected!")
