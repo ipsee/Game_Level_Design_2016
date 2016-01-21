@@ -121,6 +121,12 @@ ModelImporter:
     100226: transform7
     100228: transform8
     100230: transform9
+    100232: blockout67
+    100234: pCube17
+    100236: pCube18
+    100238: pCube19
+    100240: pCube20
+    100242: pPlane1
     400000: blockout
     400002: blockout1
     400004: blockout10
@@ -237,6 +243,12 @@ ModelImporter:
     400226: transform7
     400228: transform8
     400230: transform9
+    400232: blockout67
+    400234: pCube17
+    400236: pCube18
+    400238: pCube19
+    400240: pCube20
+    400242: pPlane1
     2300000: blockout
     2300002: blockout1
     2300004: blockout10
@@ -304,6 +316,12 @@ ModelImporter:
     2300128: blockout8
     2300130: blockout9
     2300132: pCylinder8
+    2300134: blockout67
+    2300136: pCube17
+    2300138: pCube18
+    2300140: pCube19
+    2300142: pCube20
+    2300144: pPlane1
     3300000: blockout
     3300002: blockout1
     3300004: blockout10
@@ -371,6 +389,12 @@ ModelImporter:
     3300128: blockout8
     3300130: blockout9
     3300132: pCylinder8
+    3300134: blockout67
+    3300136: pCube17
+    3300138: pCube18
+    3300140: pCube19
+    3300142: pCube20
+    3300144: pPlane1
     4300000: blockout1
     4300002: blockout65
     4300004: blockout
@@ -438,6 +462,12 @@ ModelImporter:
     4300128: blockout64
     4300130: pCylinder8
     4300132: blockout66
+    4300134: blockout67
+    4300136: pPlane1
+    4300138: pCube17
+    4300140: pCube18
+    4300142: pCube19
+    4300144: pCube20
     9500000: //RootNode
   materials:
     importMaterials: 1
