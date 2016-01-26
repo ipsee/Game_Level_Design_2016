@@ -3,7 +3,7 @@ guid: def51dd78e026f2419d1cab3084f64ba
 timeCreated: 1453332982
 licenseType: Pro
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: blockout
     100002: blockout1
@@ -127,6 +127,10 @@ ModelImporter:
     100238: pCube19
     100240: pCube20
     100242: pPlane1
+    100244: blockout68
+    100246: blockout69
+    100248: blockout70
+    100250: blockout71
     400000: blockout
     400002: blockout1
     400004: blockout10
@@ -249,6 +253,10 @@ ModelImporter:
     400238: pCube19
     400240: pCube20
     400242: pPlane1
+    400244: blockout68
+    400246: blockout69
+    400248: blockout70
+    400250: blockout71
     2300000: blockout
     2300002: blockout1
     2300004: blockout10
@@ -322,6 +330,10 @@ ModelImporter:
     2300140: pCube19
     2300142: pCube20
     2300144: pPlane1
+    2300146: blockout68
+    2300148: blockout69
+    2300150: blockout70
+    2300152: blockout71
     3300000: blockout
     3300002: blockout1
     3300004: blockout10
@@ -395,6 +407,10 @@ ModelImporter:
     3300140: pCube19
     3300142: pCube20
     3300144: pPlane1
+    3300146: blockout68
+    3300148: blockout69
+    3300150: blockout70
+    3300152: blockout71
     4300000: blockout1
     4300002: blockout65
     4300004: blockout
@@ -468,6 +484,10 @@ ModelImporter:
     4300140: pCube18
     4300142: pCube19
     4300144: pCube20
+    4300146: blockout68
+    4300148: blockout69
+    4300150: blockout70
+    4300152: blockout71
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -476,6 +496,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -483,9 +504,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -509,24 +530,25 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
