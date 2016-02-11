@@ -3,7 +3,7 @@ guid: def51dd78e026f2419d1cab3084f64ba
 timeCreated: 1453332982
 licenseType: Pro
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: blockout
     100002: blockout1
@@ -139,6 +139,13 @@ ModelImporter:
     100262: blockout77
     100264: blockout78
     100266: group8
+    100268: blockout79
+    100270: blockout80
+    100272: blockout81
+    100274: blockout82
+    100276: blockout83
+    100278: blockout84
+    100280: blockout85
     400000: blockout
     400002: blockout1
     400004: blockout10
@@ -273,6 +280,13 @@ ModelImporter:
     400262: blockout77
     400264: blockout78
     400266: group8
+    400268: blockout79
+    400270: blockout80
+    400272: blockout81
+    400274: blockout82
+    400276: blockout83
+    400278: blockout84
+    400280: blockout85
     2300000: blockout
     2300002: blockout1
     2300004: blockout10
@@ -357,6 +371,13 @@ ModelImporter:
     2300162: blockout76
     2300164: blockout77
     2300166: blockout78
+    2300168: blockout79
+    2300170: blockout80
+    2300172: blockout81
+    2300174: blockout82
+    2300176: blockout83
+    2300178: blockout84
+    2300180: blockout85
     3300000: blockout
     3300002: blockout1
     3300004: blockout10
@@ -441,6 +462,13 @@ ModelImporter:
     3300162: blockout76
     3300164: blockout77
     3300166: blockout78
+    3300168: blockout79
+    3300170: blockout80
+    3300172: blockout81
+    3300174: blockout82
+    3300176: blockout83
+    3300178: blockout84
+    3300180: blockout85
     4300000: blockout1
     4300002: blockout65
     4300004: blockout
@@ -525,6 +553,13 @@ ModelImporter:
     4300162: blockout76
     4300164: blockout77
     4300166: blockout78
+    4300168: blockout79
+    4300170: blockout80
+    4300172: blockout81
+    4300174: blockout82
+    4300176: blockout83
+    4300178: blockout84
+    4300180: blockout85
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -533,6 +568,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -540,9 +576,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -566,7 +602,6 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 4
   importAnimation: 1
@@ -574,16 +609,18 @@ ModelImporter:
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
