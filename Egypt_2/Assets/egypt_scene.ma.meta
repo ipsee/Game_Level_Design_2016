@@ -180,6 +180,9 @@ ModelImporter:
     100344: group10
     100346: pCube21
     100348: pCube22
+    100350: blockout116
+    100352: blockout117
+    100354: blockout118
     400000: blockout
     400002: blockout1
     400004: blockout10
@@ -355,6 +358,9 @@ ModelImporter:
     400344: group10
     400346: pCube21
     400348: pCube22
+    400350: blockout116
+    400352: blockout117
+    400354: blockout118
     2300000: blockout
     2300002: blockout1
     2300004: blockout10
@@ -478,6 +484,9 @@ ModelImporter:
     2300240: blockout115
     2300242: pCube21
     2300244: pCube22
+    2300246: blockout116
+    2300248: blockout117
+    2300250: blockout118
     3300000: blockout
     3300002: blockout1
     3300004: blockout10
@@ -601,6 +610,9 @@ ModelImporter:
     3300240: blockout115
     3300242: pCube21
     3300244: pCube22
+    3300246: blockout116
+    3300248: blockout117
+    3300250: blockout118
     4300000: blockout1
     4300002: blockout65
     4300004: blockout
@@ -724,6 +736,9 @@ ModelImporter:
     4300240: blockout115
     4300242: pCube21
     4300244: pCube22
+    4300246: blockout116
+    4300248: blockout117
+    4300250: blockout118
     9500000: //RootNode
   materials:
     importMaterials: 1
